@@ -1,0 +1,57 @@
+#one{
+    border: 1px solid black;
+    width: 100%;
+    margin: 1% 1%;
+    padding: 1% ;
+    border-radius: 5%;
+    background-color:yellow;
+    
+    }
+div > img{
+    width: 100%;
+    height: 70%;
+    border-radius: 5%;
+}
+.two{
+    border: 1px solid black;
+    background-color:purple;
+    cursor: pointer;
+    font-size: large;
+    padding: 1% 1%;
+    border-radius: 15%;
+}
+div > p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 1px;
+}
+#price{
+    margin: 1%
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+
+}
+.container3
+{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+.container4
+{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+/* body{
+    background-color:purple;
+} */

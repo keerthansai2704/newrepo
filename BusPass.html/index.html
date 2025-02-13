@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+fieldset {
+  background-color: #eeeeee;
+}
+
+
+</style>
+<body>
+    <center>
+        <img src="./1.png" alt="logo" width="50px">
+        <h1 style="color: blue;">TELANGANA STATE ROAD TRANSPORT CORPROARATION</h1>
+        <h1>GENERAL BUS PASS APPLICATION</h1>
+       </center>
+    
+    <form  method="get">
+        <fieldset>
+            <legend><B>Application details</B></legend>
+            <label for="name">Name</label>
+            <input type="text"  id="name"> 
+            &nbsp;
+            <label for="father name">Father's/Guardians Name</label>
+            <input type="text" id="father name">
+            <br> <br>
+            <label for="dateOfBirth">Date of birth</label>
+            <input type="datetime-local" id="dateOfBirth">
+            &nbsp;  &nbsp;
+            <label for="gender">Gender:</label> &nbsp;
+            <label > male
+            <input type="radio" name="gender" value="male" id="gender">
+        </label>
+        <label > female
+            <input type="radio" name="gender" value="female" id="gender" >
+        </label>
+        <br><br>
+        <label for="age">Age As on:</label>
+        <input type="number" id="age">
+        &nbsp;   &nbsp;
+        <label for="aadhar number">Aadhar no:</label>
+        <input type="number" id="aadhar number" pattern=""> <br><br>
+        <label for="whatsApp No">WhatsApp No</label>
+        <input type="number" id="whatsApp No">
+        &nbsp;   &nbsp;
+        <label for="E-mail id">E-mail Id</label>
+        <input type="email" id="E-mail id"> <br><br>
+        <label for="file">Photo:
+        </label>
+        <input type="file" id="file">
+        <br><br>
+        </fieldset>
+
+    </form>
+    <form method="get">
+        <fieldset>
+            <legend><B>Residential Address Details</B></legend>
+            <label for="address">Applicant's address</label>
+            <textarea name="address" id="address"></textarea>
+           
+            &nbsp;&nbsp;
+                <Label for="district">District</Label>
+                <select name="" id="district">
+                    <option value="HYDERABAD">HYDERABAD</option>
+                </select> <BR></BR>
+                <Label for="Mandal">Mandal</Label>
+                <select name="Mandal" id="Mandal">
+                    <option value="HYDERABAD">HYDERABAD</option>
+                </select>
+                &nbsp;&nbsp;
+                <Label for="Village">Village</Label>
+                <select name="Village" id="Village">
+                    <option value="HYDERABAD">HYDERABAD</option>
+                </select> <br><br>
+                <label for="pincode">Pincode</label>
+                <input type="number">
+
+        </fieldset>
+    </form>
+
+    <form method="get">
+        <fieldset>
+            <legend><b>Pass Type Details</b></legend>
+            <label for="city">City</label>
+            <select name="city" id="city">
+                <option value="HYDERABAD">HYDERABAD</option>
+            </select>
+            <br><br>
+            <label for="PassType">PassType</label>
+            <select name="PassType" id="PassType">
+                <option value="select">select</option>
+            </select>
+
+        </fieldset>
+    </form>
+
+    <form method="get">
+        <fieldset>
+            <legend><b>Mode of Payment & Pass Collection</b></legend>
+            <label for="mode">Payment Mode</label>
+            <select name="mode" id="mode"><option value="mode">Select Payment Method</option></select> <br><br>
+            <label for="delivey">Pass Delivery Mode</label>
+            <select name="" id=""><option value="mode">Select Pass delivery Mode</option></select>
+            <br><br>
+            <label for="delivey">Center a which you want to collect Pass</label>
+            <select name="center" id="center"><option value="center">Select </option></select>
+
+
+            
+        </fieldset>
+    </form>
+
+   
+ <center>
+     <form action="./submit.html" method="get">
+        <img src="./Screenshot 2025-02-04 155234.png" alt="caption"> <br>
+        <input type="text" placeholder="Enter the caption" required>
+        <br><br>
+    
+        <input type="submit">
+    </form> </center>
+
+</body>
+</html>

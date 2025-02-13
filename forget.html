@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {background-color: rgb(99, 162, 127);}
+    
+</style>
+
+<body>
+    <center>    <h2>forget password</h2>
+    <form action="./ChangePassword.html" method="get">
+        <input type="text" name="username" placeholder="username"><br>
+        <br><input type="password" name="newpassword" placeholder="newpassword" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$%]).{8,16}" title="password should conatin 1-captial Letter,1-small letter,1-numerical. 1-special character,length(8-16)">
+        &nbsp; &nbsp;<input type="n" placeholder="mobile number" name="mobile number" pattern="\+91[6789][0-9]{9}" ><br>
+        <br><input type="number" name="OTP" placeholder="OTP">
+        <h2>OTP:214214</h2>
+        <input type="submit" value="ChangePassword">
+    </form>
+    <a href="./login.html">loginPage</a> <a href="./register.html">Register</a>
+</center>
+
+</body>
+</html>
